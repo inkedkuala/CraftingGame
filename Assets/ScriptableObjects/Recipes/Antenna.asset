@@ -10,13 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3087be2c1caace4a9d7492d98ba2d5e, type: 3}
-  m_Name: Gruen
+  m_Name: Antenna
   m_EditorClassIdentifier: 
-  displayName: "Gr\xFCn"
+  displayName: Antenna
+  tier: 1
   pattern:
+  - item: {fileID: 11400000, guid: 41a2cd23ce62072408c222d1f4cdbc82, type: 2}
+    amount: 2
   - item: {fileID: 11400000, guid: f68c9d3a687f6dc4f965428a814273a9, type: 2}
     amount: 1
-  - item: {fileID: 11400000, guid: 41a2cd23ce62072408c222d1f4cdbc82, type: 2}
+  - item: {fileID: 11400000, guid: 3213f67e22796ff4e9f97a3a0b32ef5f, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 5cf04adba20f01745a8bacbf8063a76a, type: 2}
     amount: 1
   - item: {fileID: 0}
     amount: 0
@@ -42,9 +47,5 @@ MonoBehaviour:
     amount: 0
   - item: {fileID: 0}
     amount: 0
-  - item: {fileID: 0}
-    amount: 0
-  - item: {fileID: 0}
-    amount: 0
-  outputItem: {fileID: 11400000, guid: 6dc621f1d67613347bfa1ec28c4f7dd3, type: 2}
-  outputAmount: 3
+  outputItem: {fileID: 11400000, guid: e3794c9f2b79ba54a84712e114316042, type: 2}
+  outputAmount: 5
