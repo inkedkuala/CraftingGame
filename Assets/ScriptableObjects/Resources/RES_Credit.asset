@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d0340907ea066e49b31a5fc3525536d, type: 3}
-  m_Name: RES_Population
+  m_Name: RES_Credit
   m_EditorClassIdentifier: 
-  id: Population
-  icon: {fileID: 2957045187293764567, guid: ebaf6d9522381c64ea6e1b1474a249f8, type: 3}
-  displayName: Population
+  id: Credit
+  icon: {fileID: -815601188257660616, guid: 26cb8d5afdbf28f47b5c02f9cc544d42, type: 3}
+  displayName: credit
   maxStack: 99
-  description: Lets make a Tribe
+  description: Credit. The more the better.

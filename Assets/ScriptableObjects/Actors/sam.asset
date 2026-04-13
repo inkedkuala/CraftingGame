@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d75e06c2391548c5ab5d457b3bb03cd2, type: 3}
+  m_Name: sam
+  m_EditorClassIdentifier: 
+  id: tech_glitch
+  displayName: Sam
+  role: {fileID: 11400000, guid: 2e635c56c4f83e4439c9181453ab1e17, type: 2}
+  portraitOverride: {fileID: 6704380796372758343, guid: bd2bda761cbf9c64e8ced9e5b6cfa488, type: 3}
+  spiritPerDay: 1
+  hireGoldCost: 20
+  happiness: 0.25
+  clumsiness: 0.35
+  happinessThoughts:
+  - This junk still works.
+  - I can patch this.
+  - "Give me parts, I\u2019ll fix it."
+  clumsyThoughts:
+  - "Oops\u2026 that sparked."
+  - "That wasn\u2019t supposed to happen."
+  - I think I broke it more.
+  idleThoughtIntervalMinSeconds: 17
+  idleThoughtIntervalMaxSeconds: 35
+  happyIdleThoughts:
+  - I like messy systems.
+  - Nothing stays broken forever.
+  - "Give me parts, I\u2019ll fix it."
+  - Feels like a good day to exist.
+  - Coffee level optimal; morale stable.
+  - Admiring our gear like it's art.
+  - Plotting greatness, starting with snacks.
+  clumsyIdleThoughts:
+  - "Yeah\u2026 that\u2019s unstable."
+  - That wire was wrong.
+  - I think I broke it more.
+  - "That wasn\u2019t supposed to happen."
+  - "Oops\u2026 that sparked."
+  - Thought about moving, nearly fell anyway.
+  - "Hands in pockets: danger contained\u2026 probably."
+  happyTravelThoughts:
+  - Road snacks packed, morale at 110%.
+  - Maps, check. Dramatic cloak swirl, check.
+  - Adventure time; I call window seat!
+  happyForageThoughts:
+  - Found berries; probably edible. Mostly.
+  - Big pockets were a great investment.
+  - Everything smells like pine and potential stew.
+  happySellThoughts:
+  - "Step right up\u2014today's discounts are mostly real."
+  - I love the sound of clinking coins in the morning.
+  - Customer smiled; I might frame that memory.
+  happyResearchThoughts:
+  - Books, tea, and zero explosions so far.
+  - Eureka! Or at least 'hm, interesting.'
+  - Writing notes like my pen owes me gold.
+  happyCraftThoughts:
+  - System rebuilt.
+  - That should hold.
+  - Looks functional enough.
+  happyTavernThoughts:
+  - I know where to look.
+  - Old tech is still useful.
+  - "There\u2019s always scrap in the grid."
+  clumsyTravelThoughts:
+  - Tripped over a shadow. Classic.
+  - Packed everything except balance.
+  - The road moved first, I promise.
+  clumsyForageThoughts:
+  - Accidentally introduced myself to a thorn bush.
+  - Dropped the basket, found gravity still working.
+  - Is this mushroom friendly? It bit me.
+  clumsySellThoughts:
+  - "Spilled samples\u2014they're half off now."
+  - I practiced my pitch; forgot the product.
+  - 'Note: don''t juggle merchandise.'
+  clumsyResearchThoughts:
+  - Ink everywhere; at least it's on theme.
+  - I sneezed on the scroll. Knowledge absorbed?
+  - Tripped over a footnote literally.
+  clumsyCraftThoughts:
+  - Built a masterpiece of splinters.
+  - Glue + sleeve = new fashion line.
+  - Hammered my thumb, which is now also flat.
+  clumsyTavernThoughts:
+  - I swear the stool attacked me first.
+  - "Spilled ale\u2014called it floor seasoning."
+  - Dropped the song when the chorus came.
