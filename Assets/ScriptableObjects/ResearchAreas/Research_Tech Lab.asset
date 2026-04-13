@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09ce18267a5c46c58c36fbab0d332794, type: 3}
-  m_Name: Research_Ruins
+  m_Name: Research_Tech Lab
   m_EditorClassIdentifier: 
   id: researchruins
-  displayName: Ruins
+  displayName: TechLab
   days: 0.5
   possibleRecipes:
   - {fileID: 11400000, guid: f5ae3e67bbd257e4cad2deb7c44b5bee, type: 2}

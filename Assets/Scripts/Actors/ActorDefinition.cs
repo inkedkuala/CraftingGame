@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [CreateAssetMenu(menuName = "Game/Actors/Actor", fileName = "Actor_")]
 public class ActorDefinition : ScriptableObject
@@ -8,9 +9,10 @@ public class ActorDefinition : ScriptableObject
     public ActorRole role;
     public Sprite portraitOverride;
 
+    [FormerlySerializedAs("spiritPerDay")]
     [Header("Maintenance")]
     [Tooltip("Spirit consumed by this actor per game day.")]
-    public int spiritPerDay = 0;
+    public int creditePerDay = 0;
     [Tooltip("Gold required to hire this actor.")]
     public int hireGoldCost = 0;
 

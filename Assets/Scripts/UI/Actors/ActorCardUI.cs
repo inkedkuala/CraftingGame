@@ -102,7 +102,7 @@ public class ActorCardUI : MonoBehaviour
                 portrait.sprite = actor.def.portraitOverride ? actor.def.portraitOverride : actor.def.role?.portrait;
             if (nameLabel) nameLabel.text = actor.def.displayName;
             if (roleLabel) roleLabel.text = actor.def.role ? actor.def.role.displayName : "-";
-            if (spiritPerDayLabel) spiritPerDayLabel.text = Mathf.Max(0, actor.def.spiritPerDay).ToString();
+            if (spiritPerDayLabel) spiritPerDayLabel.text = Mathf.Max(0, actor.def.creditePerDay).ToString();
         }
         else
         {

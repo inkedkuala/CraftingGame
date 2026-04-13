@@ -134,7 +134,7 @@ public class ActorManager : MonoBehaviour
         foreach (var a in actors)
         {
             if (a == null) continue;
-            int cost = a.def != null ? a.def.spiritPerDay : 0;
+            int cost = a.def != null ? a.def.creditePerDay : 0;
             if (cost > 0 && store != null && spiritResource != null)
             {
                 bool paid = store.TrySpend(spiritResource, cost);

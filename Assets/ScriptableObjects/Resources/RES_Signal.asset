@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d0340907ea066e49b31a5fc3525536d, type: 3}
   m_Name: RES_Signal
   m_EditorClassIdentifier: 
-  id: Signal
-  icon: {fileID: 7049779716912718199, guid: e1fba31fd5a85aa40b33b25ce626710a, type: 3}
-  displayName: Signal
-  maxStack: 99
-  description: Signal will help me reach more people
+  id: Credit
+  icon: {fileID: -815601188257660616, guid: 26cb8d5afdbf28f47b5c02f9cc544d42, type: 3}
+  displayName: Credit
+  maxStack: 100000
+  description: credi! the more the better
